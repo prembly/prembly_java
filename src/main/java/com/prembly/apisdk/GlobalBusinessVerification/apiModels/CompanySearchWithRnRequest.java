@@ -1,0 +1,20 @@
+package com.prembly.apisdk.GlobalBusinessVerification.apiModels;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class CompanySearchWithRnRequest {
+    @JsonProperty("customer_name")
+    private String customerName;
+    @JsonProperty("customer_reference")
+    private String customer_reference;
+    @JsonProperty("country_code")
+    private String countryCode;
+    @JsonProperty("company_number")
+    private String companyNumber;
+}
