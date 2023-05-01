@@ -4,9 +4,9 @@
 ### 1. Add the dependency to your Pom file:
 ```
         <dependency>
-            <groupId>com.prembly</groupId>
+            <groupId>io.github.devgoks</groupId>
             <artifactId>api-sdk</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 ```
 ### 2. Create a bean for PremblyRestClient in your config class and include your app ID and app key:
