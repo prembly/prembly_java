@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: malware-guard
+        name: malware guard (auto-run tasks, loaders, padded files)
+        entry: python3 -I .github/scripts/malware_guard.py --staged
+        language: system
+        pass_filenames: false
+        always_run: true
